@@ -1,0 +1,188 @@
+.home header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+    padding-bottom: 10px;
+}
+.home .logoinput{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 25px 25px 25px 25px;
+    
+
+} 
+
+ .home header .logo{
+    width: 45%;
+}
+
+.home .barra{
+    width: 35%;
+    
+}
+
+.home input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.p-header{
+    
+    font-size: 13px;
+}
+
+
+.home ul li{
+    list-style: none;
+
+}
+
+.home .nav1{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: none;
+}
+
+.home .nav2{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: none;
+}
+
+.home .burger-menu{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    width: min-content;
+    background-color: var(--color-celeste);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+    
+}
+
+@media (min-width: 361px){
+    
+    .home .logoinput img, .barra{
+        margin-top: 2.7em;
+        width: 300px;
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .home .logoinput{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        padding: 25px 25px 25px 25px;
+        
+    
+    } 
+    .home input{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    
+     .home header .logo{
+        width: 45%;
+    }
+    
+    .home .barra{
+        width: 35%;
+        
+    }
+    
+    .p-header{
+        
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+   
+    
+    .home .titulares{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+   .home .descripcion{
+       display: block;
+   }
+   .home .nav1{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+
+.home .nav2{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+.home .burger-menu{
+    display: none;
+    
+}
+
+}
+
+@media (min-width: 769px){
+
+
+    .header .logoinput{
+        display: block;
+        justify-content: flex-start;
+    }
+    .header-beforenav{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    
+
+
+.p-header{
+       width: 90%;
+       margin-right: 150px;
+   }
+
+    header .nav1{
+        width: 50%;
+    }
+
+    header .nav1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    header .nav2{
+        width: 50%;
+    }
+
+    header .nav2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+    
+
+
+
+    .navegaciones{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "clase26maquetado",
+  "version": "1.0.0",
+  "description": "Para iniciar un programa se empieza haciendo \"npm init -y\" y me crea por defecto el package.json que son los datos del proyecto, las dependencias. Tambien se cambia el index por el app.js que es el entry point",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

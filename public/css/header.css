@@ -12,6 +12,10 @@
 
 } 
 
+.home .logoinput p{
+    display: none;
+}
+
  .home header .logo{
     width: 45%;
 }
@@ -28,7 +32,7 @@
 }
 .p-header{
     
-    font-size: 13px;
+font-size: 13px;
 }
 
 
@@ -64,6 +68,7 @@
 }
 
 @media (min-width: 361px){
+
     
     .home .logoinput img, .barra{
         margin-top: 2.7em;
@@ -133,22 +138,27 @@
 @media (min-width: 769px){
 
 
+    .home header .logo{
+        width: 55%;
+    }
+
     .header .logoinput{
-        display: block;
-        justify-content: flex-start;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     .header-beforenav{
         display: flex;
-        /* justify-content: center; */
+       justify-content: center; 
         align-items: center;
     }
+    .home p{
+        display: flex;
+    }
 
-    
+    .p-header{
+       width: 60%;
 
-
-.p-header{
-       width: 90%;
-       margin-right: 150px;
    }
 
     header .nav1{
@@ -171,9 +181,6 @@
     
     }
     
-
-
-
     .navegaciones{
         display: flex;
         justify-content: space-between;

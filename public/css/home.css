@@ -82,7 +82,7 @@ span{
     padding-bottom: 10px;
     display: none;
 }
-
+/* 
 .footer div{
     margin-bottom: 3rem;
 }
@@ -96,7 +96,7 @@ span{
     font-size: 2rem;
      color: var(--color-celeste)
     
-}
+} */
 
 @media (min-width: 361px){
     

@@ -82,28 +82,33 @@ span{
     padding-bottom: 10px;
     display: none;
 }
-/* 
-.footer div{
-    margin-bottom: 3rem;
-}
-.footer h4, p{
-    text-align: center;
-}
-
-.footer .icono{
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 2rem;
-     color: var(--color-celeste)
+/* .rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
     
-} */
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    
+    overflow:hidden;
+    
+    } */
+
+
 
 @media (min-width: 361px){
     
     
 .home article{
-    box-shadow:0px 0px 15px rgb(100, 100, 100);
+   /*  box-shadow:0px 0px 15px rgb(100, 100, 100); */
     width: 48%;
+}
+
+.home article:hover{
+    box-shadow:0px 0px 15px rgb(100, 100, 100);
 }
 
 .home main h3, span{
@@ -131,6 +136,13 @@ span{
     
     .precio-descripcion span{
         justify-items: flex-end;
+        
+    }
+    .home .descripcion{
+        color: gray;
+    }
+    .home .descripcion:hover{
+        color: black;
         
     }
 

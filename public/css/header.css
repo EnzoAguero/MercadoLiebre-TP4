@@ -9,7 +9,6 @@
     display: flex;
     padding: 25px 25px 25px 25px;
     
-
 } 
 
 .home .logoinput p{
@@ -188,8 +187,23 @@ font-size: 13px;
     }
 }
 
+@media (min-width: 1360px){
+    .logoinput input{
+        width: 400px;
+    }
+}
 
-
-
+@media (min-width: 1520px){
+    .logoinput input{
+        width: 400px;
+    }
+    .logoinput{
+        width: 60%;
+        justify-content: space-around;
+    }
+    .home header .logo{
+        width: 30%;
+    }
+}
 
 

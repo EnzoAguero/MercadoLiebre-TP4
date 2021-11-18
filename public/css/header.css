@@ -8,6 +8,7 @@
     align-items: center;
     display: flex;
     padding: 25px 25px 25px 25px;
+    justify-content: space-around
     
 } 
 
@@ -16,7 +17,7 @@
 }
 
  .home header .logo{
-    width: 45%;
+    width: 85%;
 }
 
 .home .barra{
@@ -66,7 +67,7 @@ font-size: 13px;
     
 }
 
-@media (min-width: 361px){
+@media (min-width: 769px){
 
     
     .home .logoinput img, .barra{
@@ -82,6 +83,7 @@ font-size: 13px;
         display: flex;
         padding: 25px 25px 25px 25px;
         
+        
     
     } 
     .home input{
@@ -91,8 +93,8 @@ font-size: 13px;
         margin-left: 5px;
     }
     
-     .home header .logo{
-        width: 45%;
+     .home header a .logo{
+        width: 85%;
     }
     
     .home .barra{
@@ -137,8 +139,8 @@ font-size: 13px;
 @media (min-width: 769px){
 
 
-    .home header .logo{
-        width: 55%;
+    .home header a .logo{
+        width: 85%;
     }
 
     .header .logoinput{
@@ -186,24 +188,52 @@ font-size: 13px;
         align-items: center;
     }
 }
-
-@media (min-width: 1360px){
-    .logoinput input{
-        width: 400px;
+@media (min-width: 1024px){
+    .home .logoinput input{
+        width: 20rem;
     }
 }
-
 @media (min-width: 1520px){
-    .logoinput input{
-        width: 400px;
-    }
-    .logoinput{
-        width: 60%;
+
+    
+
+    .home .logoinput{
+        
         justify-content: space-around;
+        
     }
-    .home header .logo{
-        width: 30%;
+
+    .home .logoinput input{
+        width:20rem;
+        
+    }
+
+    .home .header-beforenav{
+        display: flex;
+        justify-content: center;
     }
 }
+
+@media (min-width: 1720px){
+  
+
+    .home .logoinput{
+        height: 40%;
+        justify-content: space-around;
+        
+    }
+
+    .home .logoinput input{
+        width:20rem;
+        
+    }
+
+    .home .header-beforenav{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 
 

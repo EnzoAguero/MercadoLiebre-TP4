@@ -82,21 +82,11 @@ span{
     padding-bottom: 10px;
     display: none;
 }
-/* .rotate{
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-    
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    
-    overflow:hidden;
-    
-    } */
-
+ 
+.fa-truck:hover{
+    transition:1.5s;
+    transform:rotate(360deg)
+    }
 
 
 @media (min-width: 361px){
